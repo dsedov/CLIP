@@ -153,7 +153,7 @@ def load(name: str, device: Union[str, torch.device] = "cuda" if torch.cuda.is_a
             if jit:
                 model = torch.jit.load(opened_file, map_location=device if jit else "cpu").eval()
                 state_dict = None
-            else:
+            elif "_ID" in model_path:
                 state_dict = torch.load(opened_file, map_location="cpu")
         except RuntimeError:
             # loading saved state dict
