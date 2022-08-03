@@ -42,6 +42,7 @@ _MODELS = {
     "RN50_ID_e10" : "/content/drive/MyDrive/AI/clip_checkpoints/rn50_id_e10.pt",
     "RN50_ID_e20" : "/content/drive/MyDrive/AI/clip_checkpoints/rn50_id_e20.pt",
     "RN50_ID_e30" : "/content/drive/MyDrive/AI/clip_checkpoints/rn50_id_e30.pt",
+    "RN50_ID_e40" : "/content/drive/MyDrive/AI/clip_checkpoints/rn50_id_e30.pt",
     "RN50_ID_e50" : "/content/drive/MyDrive/AI/clip_checkpoints/rn50_id_e50.pt",
     "RN50_ID_e75" : "/content/drive/MyDrive/AI/clip_checkpoints/rn50_id_e75.pt",
     "RN50_ID_e100" : "/content/drive/MyDrive/AI/clip_checkpoints/rn50_id_e100.pt",
