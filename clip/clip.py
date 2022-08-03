@@ -40,7 +40,9 @@ _MODELS = {
 }
 for i in range (300):
     _MODELS[f"ViT-B/32_ID_e{i}"] = f"/content/drive/MyDrive/AI/clip_checkpoints/vit_b_32_id_e{i}.pt"
+    _MODELS[f"ViT-L/14_ID_e{i}"] = f"/content/drive/MyDrive/AI/clip_checkpoints/vit_l_14_id_e{i}.pt"
     _MODELS[f"RN50_ID_e{i}"] = f"/content/drive/MyDrive/AI/clip_checkpoints/rn50_id_e{i}.pt"
+    _MODELS[f"RN101_ID_e{i}"] = f"/content/drive/MyDrive/AI/clip_checkpoints/rn101_id_e{i}.pt"
 
 def _download(url: str, root: str):
     os.makedirs(root, exist_ok=True)
